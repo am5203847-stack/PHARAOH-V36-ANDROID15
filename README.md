@@ -1,25 +1,25 @@
-# 👑 PHARAOH V36 ULTIMATE
-### First OSINT Tool Built for ANDROID 15
 
-> The only OSINT tool that FIXES socket.gaierror & No resolv.conf on Android 15 Termux!
+# 👑 PHARAOH V38.2 PRO CLEAN - ANDROID 15 KING
+### First OSINT Tool Built 100% on Android 15 - REAL Fix
 
-### 🔥 WHY V36 IS DIFFERENT?
-On Android 15, all old tools fail. Pharaoh V36 fixes it with GOD MODE:
-- resolver.nameservers = ['8.8.8.8','1.1.1.1']
+## 🔥 WHAT'S NEW IN V38.2 PRO?
 
-### ⚡ FEATURES
-- DNS INFO & IP Resolver
-- Port Scanner (Fast Threading)
-- Whois Lookup
-- Subdomain Finder
-- HTTP Header Grabber
+V38.1 was quick fix. V38.2 PRO is REAL engineering:
 
-### 📲 INSTALL
-pkg update && pkg upgrade
-pkg install python git
-pip install dnspython requests
+1. REAL DNS FIX: Actually WRITES to `/data/data/com.termux/files/usr/etc/resolv.conf` with 8.8.8.8 + proof log, not fake socket only
+2. CLEAN ARCHITECTURE: OOP Classes DNSFixer + PharaohEngine - Readable, Secure
+3. ACCURATE SCANS: WHOIS Port 43 real, crt.sh Subdomains, Threaded Ports, CORS exploit
+
+## ⚡ 8 PRO TOOLS
+
+1. DNS Lookup 2. Real WHOIS 3. Subdomain crt.sh 4. Threaded Port Scan 5. SSL Hunter 6. Security Headers Scored 7. CORS Tester 8. Banner Grab
+
+## 📦 INSTALL
+
+```bash
+pkg update && pkg upgrade -y
+pkg install python git -y
+pip install requests dnspython
 git clone https://github.com/am5203847-stack/PHARAOH-V36-ANDROID15.git
 cd PHARAOH-V36-ANDROID15
-python pharaoh_v36.py
-
-### 👑 CREATED BY ADEL89
+python pharaoh_v38_2_pro_clean.py
